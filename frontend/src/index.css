@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.search-form {
+  display: flex;
+  padding-left: 10px;
+}
+
+.search-form input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.search-form button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+.navbar h1{
+  color: #f1356d;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: #f1356d;
+}
+
+.content{
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+
+
+.blog-details .button-container {
+  display: flex;
+  flex-direction: column; /* Aligns items vertically */
+  align-items: center; /* Centers items horizontally */
+}
+
+.blog-details h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.blog-details div{
+  margin: 20px 0;
+}
+
+.blog-details button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.blog-body{
+  text-align: justify; /* Justifies the text */
+  line-height: 1.6;
+}
+
+.create{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header select {
+  padding: 5px; /* Add some padding for a better look */
+  border: 1px solid #ccc; /* Simple border styling */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+
+/* General alert styling */
+.alert {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Variants for different alert types */
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.alert.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.alert.warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.alert.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
+
+.login-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-container label {
+  text-align: left;
+  display: block;
+}
+
+.login-container h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.password-input {
+  display: flex;
+  align-items: center;
+}
+
+.password-input input {
+  flex-grow: 1;
+}
+
+.password-toggle {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.login-container button {
+  background: #f1356d;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-container button:disabled {
+  background-color: grey;
+}
+
+.sign-up-link {
+  margin-top: 10px;
+  color: #333;
+}
+
+
+.signup-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.signup-container label {
+  text-align: left;
+  display: block;
+}
+
+.signup-container h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.signup-container input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.signup-container button {
+  background: #f1356d;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup-container button:disabled {
+  background-color: grey;
+}
+
+.login-link {
+  margin-top: 10px;
+  color: #333;
+}
+
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
