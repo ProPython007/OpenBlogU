@@ -81,9 +81,16 @@ To run this project locally, follow these steps:
 - The React frontend will be available at `http://localhost:3000`.
 - The DRF backend will be available at `http://localhost:8000/api/`.
 
+
 ## Usage
 
 1. Register for an account.
 2. Verify your email to access the platform fully.
 3. Create, edit, and delete blog posts with the rich-text editor.
 4. Access the REST API for programmatic access to blog posts and user management.
+
+
+### Preview
+
+![pp9](https://github.com/user-attachments/assets/a0d1003e-cba4-4782-b369-d95264f5aa6a)
+
