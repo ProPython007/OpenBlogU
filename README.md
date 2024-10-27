@@ -34,6 +34,7 @@ To run this project locally, follow these steps:
 2. Set up a virtual environment and install dependencies:
 
     ```bash
+    cd backend
     python -m venv env
     source env/bin/activate
     pip install -r requirements.txt
@@ -44,6 +45,8 @@ To run this project locally, follow these steps:
     ```bash
     export SECRET_KEY='your_django_secret_key'
     export JWT_SECRET_KEY='your_jwt_secret_key'
+    export EMAIL_HOST_PASSWORD='your_email_host_password'
+    export EMAIL_HOST='your_email_host'
     ```
 
 4. Run migrations and start the server:
