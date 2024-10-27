@@ -3,7 +3,7 @@
 A feature-rich blog platform with rich-text editing, CRUD functionality, JWT-based authentication, email verification, and a REST API developed with Django Rest Framework (DRF) and React. 
 OpenBlogU :: Mini Blog Site [Uncensored]
 
-[**Live Demo**]([deploy link](https://openblogu.165131.xyz/))
+([**Live Demo**](https://openblogu.165131.xyz/))
 
 ## Features
 
@@ -18,7 +18,7 @@ OpenBlogU :: Mini Blog Site [Uncensored]
 - **Frontend**: React
 - **Backend**: Django Rest Framework (DRF)
 - **Authentication**: JWT (JSON Web Tokens)
-- **Deployment**: [Link to Deployed Version]([deploy link](https://openblogu.165131.xyz/))
+- **Deployment**: ([Link to Deployed Version](https://openblogu.165131.xyz/))
 
 ## Installation
 
@@ -29,8 +29,8 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/ProPython007/OpenBlogU.git
+    cd OpenBlogU
     ```
 
 2. Set up a virtual environment and install dependencies:
