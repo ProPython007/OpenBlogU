@@ -90,7 +90,7 @@ To run this project locally, follow these steps:
 4. Access the REST API for programmatic access to blog posts and user management.
 
 
-### Preview
+## Preview
 
 ![pp9](https://github.com/user-attachments/assets/a0d1003e-cba4-4782-b369-d95264f5aa6a)
 
