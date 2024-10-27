@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
+import os
 
 
 SITE_URL = 'http://localhost:3000'
@@ -25,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-s55@#ao17@+z7n-m6f45^k5_&&95%k=54-si^l7mjk!1d^1)vg'
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your_default_secret_key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -149,7 +150,7 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
-    
+    "SIGNING_KEY": os.getenv('JWT_SECRET_KEY', 'your_default_jwt_secret_key'),
     "TOKEN_OBTAIN_SERIALIZER": "shop_app.serializers.MyTokenObtainPairSerializer"
 }
 
@@ -157,5 +158,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "djangoatservice@gmail.com"
-EMAIL_HOST_PASSWORD = "xxx"
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', 'your_default_email_password')
 EMAIL_USE_TLS = True
