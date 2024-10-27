@@ -1,9 +1,7 @@
 # Full-Stack Blog Application with Django Rest Framework and React
 
 A feature-rich blog platform with rich-text editing, CRUD functionality, JWT-based authentication, email verification, and a REST API developed with Django Rest Framework (DRF) and React. 
-OpenBlogU :: Mini Blog Site [Uncensored]
-
-([**Live Demo**](https://openblogu.165131.xyz/))
+[**OpenBlogU**](https://openblogu.165131.xyz/) :: Mini Blog Site [Uncensored]
 
 ## Features
 
@@ -18,7 +16,7 @@ OpenBlogU :: Mini Blog Site [Uncensored]
 - **Frontend**: React
 - **Backend**: Django Rest Framework (DRF)
 - **Authentication**: JWT (JSON Web Tokens)
-- **Deployment**: ([Link to Deployed Version](https://openblogu.165131.xyz/))
+- **Deployment**: [Link to Deployed Version](https://openblogu.165131.xyz/)
 
 ## Installation
 
